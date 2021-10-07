@@ -1,0 +1,149 @@
+@media (min-width:1200px) {
+  .container {
+   max-width:1265px;
+  }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1200px) {
+  .header_top {
+    padding: 0px 45px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  .header_top {
+    padding: 0px 10px;
+  }
+  .header_login {
+    display: none;
+  }
+  .header_heart {
+    display: none;
+  }
+  .header_buttom {
+    display: none;
+  }
+  .slider-content {
+    padding-left: 0px;
+  }
+  .side-mobile-menu {
+    display: block;
+   }
+  .header_bar {
+    display: block;
+    position: absolute;
+    right: -35px;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1025px) {
+  .header_top {
+    padding: 10px 0px;
+  }
+  .header_top-left {
+    display: none;
+  }
+  .header_top-info {
+    display: none;
+  }
+  .current_header-top {
+    display: block;
+    text-align: center;
+  }
+  .header_top-right {
+    display: block;
+  }
+  .header_login {
+    display: none;
+  }
+  .header_heart {
+    display: none;
+  }
+  .slider-area {
+    min-height: 390px;
+  }
+  .slider-content h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+ .dp-none{
+   display: none;
+ }
+ .header_buttom {
+	display: none;
+}
+.slider-area {
+  padding: 70px 0px;
+}
+.slider-content {
+  padding-left: 0px;
+}
+.side-mobile-menu {
+  display: block;
+ }
+.header_bar {
+  display: block;
+  position: absolute;
+  right: -35px;
+  top: 0;
+}
+.slider-area .slick-prev.slick-arrow {
+	left: -60px;
+}
+}
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+  .header_top {
+    padding: 10px 0px;
+  }
+  .header_top-left {
+    display: none;
+  }
+  .header_top-info {
+    display: none;
+  }
+  .current_header-top {
+    display: block;
+    text-align: center;
+  }
+  .header_top-right {
+    display: block;
+  }
+.dp-none{
+   display: none;
+ }
+  .header_login {
+    display: none;
+  }
+  .header_heart {
+    display: none;
+  }
+  .header_buttom {
+    display: none;
+  }
+  .slider-area {
+    padding: 70px 0px;
+  }
+  .slider-content {
+    padding-left: 0px;
+  }
+  .slider-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .slider-content span {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .side-mobile-menu {
+   display: block;
+  }
+  .header_bar {
+    display: block;
+    position: absolute;
+    right: 50%;
+    top: 0;
+  }
+}
+
